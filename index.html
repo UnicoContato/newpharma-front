@@ -1,276 +1,477 @@
 <!DOCTYPE html>
 <html lang="pt-br" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Pharma - Cuidando de Você</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.1.3/24/outline/heroicons.min.css"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>New Pharma - Cuidando de Você</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/heroicons/2.1.3/24/outline/heroicons.min.css">
-</head>
-
-<body class="font-sans bg-gray-50">
-
-  <header id="main-header"
-    class="bg-white shadow-md w-full fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out">
-    <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
-      <a href="#inicio" class="text-3xl font-bold text-red-600">
-        New Pharma
-      </a>
-
-      <div class="hidden md:flex space-x-6 items-center">
-        <a href="#inicio" class="text-gray-700 hover:text-red-600">Início</a>
-        <a href="#sobre" class="text-gray-700 hover:text-red-600">Sobre Nós</a>
-        <a href="#servicos" class="text-gray-700 hover:text-red-600">Serviços</a>
-        <a href="#galeria" class="text-gray-700 hover:text-red-600">Galeria</a>
-        <a href="#contato" class="text-gray-700 hover:text-red-600">Contato</a>
-        <a href="https://wa.me/5527999434649" target="_blank"
-          class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full shadow-lg transition-colors">
-          Peça pelo WhatsApp
+  <body class="font-sans bg-gray-50">
+    <header
+      id="main-header"
+      class="bg-white shadow-md w-full fixed top-0 left-0 z-50 transition-transform duration-300 ease-in-out"
+    >
+      <nav
+        class="container mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <a href="#inicio" class="text-3xl font-bold text-red-600">
+          New Pharma
         </a>
-      </div>
 
-      <div class="md:hidden">
-        <button id="mobile-menu-button" class="text-gray-700 focus:outline-none">
-          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
-          </svg>
-        </button>
-      </div>
-    </nav>
-
-    <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
-      <a href="#inicio" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Início</a>
-      <a href="#sobre" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Sobre Nós</a>
-      <a href="#servicos" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Serviços</a>
-      <a href="#galeria" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Galeria</a>
-      <a href="#contato" class="block px-6 py-3 text-gray-700 hover:bg-gray-100">Contato</a>
-      <a href="https://wa.me/5527999434649" target="_blank"
-        class="block px-6 py-4 bg-green-500 text-white text-center font-bold">
-        Peça pelo WhatsApp
-      </a>
-    </div>
-  </header>
-
-  <main>
-
-    <section id="inicio"
-      class="relative h-screen min-h-[600px] flex items-center justify-center text-center text-white pt-16">
-      <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
-      <div class="absolute inset-0 bg-cover bg-center" style="background-image: url('img/loja-interior-1.jpeg');"></div>
-
-      <div class="relative z-20 p-6">
-        <h1 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">New Pharma</h1>
-        <p class="text-2xl md:text-3xl font-light mb-8 drop-shadow-md">Aqui nós cuidamos de você!</p>
-        <a href="https://wa.me/5527999434649" target="_blank"
-          class="bg-red-600 hover:bg-red-700 text-white text-lg font-bold px-10 py-4 rounded-full shadow-xl transition-transform transform hover:scale-105">
-          Faça seu Pedido
-        </a>
-      </div>
-    </section>
-
-    <section id="sobre" class="py-20 bg-white">
-      <div class="container mx-auto px-6 max-w-4xl text-center">
-        <h2 class="text-4xl font-bold text-gray-800 mb-6">Sobre Nós</h2>
-        <p class="text-lg text-gray-600 leading-relaxed">
-          Fundada em 01 de julho de 2022, a <strong>New Pharma Medicamentos</strong> nasceu com o compromisso de cuidar
-          da sua saúde e bem-estar. Oferecemos atendimento ao público, vendas de medicamentos, perfumaria e cosméticos,
-          sempre com qualidade, confiança e um atendimento acolhedor.
-        </p>
-        <p class="text-lg text-gray-600 leading-relaxed mt-4">
-          Comprometida com o cuidado e a qualidade, aqui na New Pharma cada cliente é tratado com atenção e respeito,
-          oferecendo um atendimento humanizado e personalizado. Buscamos atender às suas necessidades com eficiência e
-          confiança, porque <strong>cuidar de você é a nossa prioridade!</strong>
-        </p>
-      </div>
-    </section>
-
-    <section id="servicos" class="py-20 bg-gray-50">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Nossos Serviços</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
-
-          <div
-            class="bg-white p-8 rounded-lg shadow-lg text-center transform transition-transform hover:-translate-y-2">
-            <svg class="w-16 h-16 text-red-600 mx-auto mb-4" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-              <g fill="currentColor">
-                <path fill="none" d="M0 0H24V24H0z" />
-                <path
-                  d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z" />
-              </g>
-            </svg>
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">Medicamentos</h3>
-            <p class="text-gray-600">Ampla variedade de medicamentos éticos, genéricos e similares para sua saúde.</p>
-          </div>
-
-          <div
-            class="bg-white p-8 rounded-lg shadow-lg text-center transform transition-transform hover:-translate-y-2">
-            <svg class="w-16 h-16 text-red-600 mx-auto mb-4" fill="currentColor" version="1.1" id="Capa_1"
-              xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 442 442"
-              xml:space="preserve">
-              <g>
-                <path
-                  d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z" />
-                <path
-                  d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10		c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682		C366,172.653,357.028,163.682,346,163.682z M196,20h50v92h-50V20z M96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85		c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10		V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10		v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z" />
-              </g>
-            </svg>
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">Perfumaria e Cosméticos</h3>
-            <p class="text-gray-600">Os melhores produtos de beleza, higiene pessoal e perfumaria para seu bem-estar.
-            </p>
-          </div>
-
-          <div
-            class="bg-white p-8 rounded-lg shadow-lg text-center transform transition-transform hover:-translate-y-2">
-            <svg class="w-16 h-16 text-red-600 mx-auto mb-4" xmlns="http://www.w3.org/2000/svg" fill="none"
-              viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round"
-                d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-            </svg>
-            <h3 class="text-2xl font-bold text-gray-800 mb-2">Atendimento Humanizado</h3>
-            <p class="text-gray-600">Nossa equipe está pronta para te atender com carinho, respeito e atenção total.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="galeria" class="py-20 bg-white">
-      <div class="container mx-auto px-6">
-        <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">Nossa Loja</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <img src="img/loja-externa.jpeg" alt="Fachada da New Pharma"
-            class="rounded-lg shadow-lg object-cover w-full h-80">
-          <img src="img/loja-interior-2.jpeg" alt="Interior da New Pharma - Brinquedos"
-            class="rounded-lg shadow-lg object-cover w-full h-80">
-          <img src="img/loja-interior-1.jpeg" alt="Interior da New Pharma - Mural"
-            class="rounded-lg shadow-lg object-cover w-full h-80">
-        </div>
-      </div>
-    </section>
-
-    <section id="contato" class="py-20 bg-gray-50">
-      <div class="container mx-auto px-6 max-w-6xl grid md:grid-cols-2 gap-12">
-
-        <div class="space-y-8">
-          <div>
-            <h2 class="text-3xl font-bold text-gray-800 mb-6">Venha nos Visitar</h2>
-
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Endereço</h3>
-            <ul class="text-gray-600 space-y-1">
-              <li><strong>Logradouro:</strong> AV TERCEIRO MUNDO, 4</li>
-              <li><strong>Complemento:</strong> QUADRA13 SETOR ASIA</li>
-              <li><strong>Bairro:</strong> CIDADE CONTINENTAL</li>
-              <li><strong>Município:</strong> SERRA - ES</li>
-              <li><strong>CEP:</strong> 29.163-603</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Entre em Contato</h3>
-            <ul class="text-gray-600 space-y-1">
-              <li><strong>Telefone:</strong> (27) 2141-2632</li>
-              <li><strong>WhatsApp:</strong> (27) 99943-4649</li>
-              <li><strong>Email:</strong> REMEDIO10FARMACIA@GMAIL.COM</li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 class="text-xl font-semibold text-gray-900 mb-2">Informações</h3>
-            <ul class="text-gray-600 space-y-1">
-              <li><strong>Razão Social:</strong> NEW PHARMA MEDICAMENTOS LTDA</li>
-              <li><strong>CNPJ:</strong> 46.995.223/0001-37</li>
-            </ul>
-          </div>
-
-          <a href="https://wa.me/5527999434649" target="_blank"
-            class="mt-8 inline-block px-8 py-3 bg-green-500 text-white text-lg font-bold rounded-lg shadow-lg hover:bg-green-600 transform hover:scale-105 transition-all">
+        <div class="hidden md:flex space-x-6 items-center">
+          <a href="#inicio" class="text-gray-700 hover:text-red-600">Início</a>
+          <a href="#sobre" class="text-gray-700 hover:text-red-600"
+            >Sobre Nós</a
+          >
+          <a href="#servicos" class="text-gray-700 hover:text-red-600"
+            >Serviços</a
+          >
+          <a href="#galeria" class="text-gray-700 hover:text-red-600"
+            >Galeria</a
+          >
+          <a href="#contato" class="text-gray-700 hover:text-red-600"
+            >Contato</a
+          >
+          <a
+            href="https://wa.me/5527999434649"
+            target="_blank"
+            class="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full shadow-lg transition-colors"
+          >
             Peça pelo WhatsApp
           </a>
         </div>
 
-        <div>
-          <div class="rounded-lg shadow-xl overflow-hidden w-full h-[500px] md:h-full">
-            <iframe
-              src="https://www.google.com/maps?q=AV+TERCEIRO+MUNDO+4,+QUADRA13+SETOR+ASIA,+CIDADE+CONTINENTAL,+SERRA+-+ES,+29.163-603&output=embed"
-              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" class="rounded-lg">
-            </iframe>
-          </div>
+        <div class="md:hidden">
+          <button
+            id="mobile-menu-button"
+            class="text-gray-700 focus:outline-none"
+          >
+            <svg
+              class="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 6h16M4 12h16m-7 6h7"
+              ></path>
+            </svg>
+          </button>
         </div>
+      </nav>
 
+      <div id="mobile-menu" class="hidden md:hidden bg-white shadow-lg">
+        <a
+          href="#inicio"
+          class="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+          >Início</a
+        >
+        <a href="#sobre" class="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+          >Sobre Nós</a
+        >
+        <a
+          href="#servicos"
+          class="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+          >Serviços</a
+        >
+        <a
+          href="#galeria"
+          class="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+          >Galeria</a
+        >
+        <a
+          href="#contato"
+          class="block px-6 py-3 text-gray-700 hover:bg-gray-100"
+          >Contato</a
+        >
+        <a
+          href="https://wa.me/5527999434649"
+          target="_blank"
+          class="block px-6 py-4 bg-green-500 text-white text-center font-bold"
+        >
+          Peça pelo WhatsApp
+        </a>
       </div>
-    </section>
+    </header>
 
-  </main>
+    <main>
+      <section
+        id="inicio"
+        class="relative h-screen min-h-[600px] flex items-center justify-center text-center text-white pt-16"
+      >
+        <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
+        <div
+          class="absolute inset-0 bg-cover bg-center"
+          style="background-image: url('img/loja-interior-1.jpeg')"
+        ></div>
 
-  <footer class="bg-gray-900 text-gray-300">
-    <div class="container mx-auto px-6 py-8">
-      <div class="flex flex-col md:flex-row justify-between items-center">
-
-        <div class="mb-4 md:mb-0 text-center md:text-left">
-          <a href="#inicio" class="text-2xl font-bold text-red-500 hover:text-red-400">
+        <div class="relative z-20 p-6">
+          <h1 class="text-5xl md:text-7xl font-extrabold mb-4 drop-shadow-lg">
             New Pharma
+          </h1>
+          <p class="text-2xl md:text-3xl font-light mb-8 drop-shadow-md">
+            Aqui nós cuidamos de você!
+          </p>
+          <a
+            href="https://wa.me/5527999434649"
+            target="_blank"
+            class="bg-red-600 hover:bg-red-700 text-white text-lg font-bold px-10 py-4 rounded-full shadow-xl transition-transform transform hover:scale-105"
+          >
+            Faça seu Pedido
           </a>
-          <p class="text-sm text-gray-400 mt-1">
-            © 2025 New Pharma Medicamentos Ltda.
+        </div>
+      </section>
+
+      <section id="sobre" class="py-20 bg-white">
+        <div class="container mx-auto px-6 max-w-4xl text-center">
+          <h2 class="text-4xl font-bold text-gray-800 mb-6">Sobre Nós</h2>
+          <p class="text-lg text-gray-600 leading-relaxed">
+            Fundada em 01 de julho de 2022, a
+            <strong>New Pharma Medicamentos</strong> nasceu com o compromisso de
+            cuidar da sua saúde e bem-estar. Oferecemos atendimento ao público,
+            vendas de medicamentos, perfumaria e cosméticos, sempre com
+            qualidade, confiança e um atendimento acolhedor.
+          </p>
+          <p class="text-lg text-gray-600 leading-relaxed mt-4">
+            Comprometida com o cuidado e a qualidade, aqui na New Pharma cada
+            cliente é tratado com atenção e respeito, oferecendo um atendimento
+            humanizado e personalizado. Buscamos atender às suas necessidades
+            com eficiência e confiança, porque
+            <strong>cuidar de você é a nossa prioridade!</strong>
           </p>
         </div>
+      </section>
 
-        <div class="flex space-x-6">
-          <a href="#sobre" class="text-sm hover:text-white transition-colors">Sobre</a>
-          <a href="#servicos" class="text-sm hover:text-white transition-colors">Serviços</a>
-          <a href="#contato" class="text-sm hover:text-white transition-colors">Contato</a>
-          <a href="#" id="open-privacy-modal" class="text-sm hover:text-white transition-colors">Privacidade</a>
+      <section id="servicos" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+            Nossos Serviços
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-10">
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center transform transition-transform hover:-translate-y-2"
+            >
+              <svg
+                class="w-16 h-16 text-red-600 mx-auto mb-4"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g fill="currentColor">
+                  <path fill="none" d="M0 0H24V24H0z" />
+                  <path
+                    d="M19 2v2h-2v3c1.657 0 3 1.343 3 3v11c0 .552-.448 1-1 1H5c-.552 0-1-.448-1-1V10c0-1.657 1.343-3 3-3V4H5V2h14zm-2 7H7c-.552 0-1 .448-1 1v10h12V10c0-.552-.448-1-1-1zm-4 2v2h2v2h-2.001L13 17h-2l-.001-2H9v-2h2v-2h2zm2-7H9v3h6V4z"
+                  />
+                </g>
+              </svg>
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                Medicamentos
+              </h3>
+              <p class="text-gray-600">
+                Ampla variedade de medicamentos éticos, genéricos e similares
+                para sua saúde.
+              </p>
+            </div>
+
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center transform transition-transform hover:-translate-y-2"
+            >
+              <svg
+                class="w-16 h-16 text-red-600 mx-auto mb-4"
+                fill="currentColor"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 442 442"
+                xml:space="preserve"
+              >
+                <g>
+                  <path
+                    d="M231.5,50.5c0-5.79-4.71-10.5-10.5-10.5c-5.79,0-10.5,4.71-10.5,10.5S215.21,61,221,61C226.79,61,231.5,56.29,231.5,50.5z"
+                  />
+                  <path
+                    d="M346,163.682h-60V122c0-5.522-4.478-10-10-10h-10V10c0-5.523-4.478-10-10-10h-70c-5.523,0-10,4.477-10,10v102h-10		c-5.523,0-10,4.478-10,10v41.682H96c-11.028,0-20,8.972-20,20V422c0,11.028,8.972,20,20,20h250c11.028,0,20-8.972,20-20V183.682		C366,172.653,357.028,163.682,346,163.682z M196,20h50v92h-50V20z M96,422V183.682h70c5.523,0,10-4.477,10-10V132h35v71.682h-85		c-5.523,0-10,4.478-10,10V392c0,5.522,4.477,10,10,10h190c5.522,0,10-4.478,10-10v-60.892c0-5.522-4.478-10-10-10s-10,4.478-10,10		V382H136V223.682h75V352c0,5.522,4.477,10,10,10c5.523,0,10-4.478,10-10V223.682h75V297c0,5.522,4.478,10,10,10s10-4.478,10-10		v-83.318c0-5.522-4.478-10-10-10h-85V132h35v41.682c0,5.523,4.478,10,10,10h70L346.002,422H96z"
+                  />
+                </g>
+              </svg>
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                Perfumaria e Cosméticos
+              </h3>
+              <p class="text-gray-600">
+                Os melhores produtos de beleza, higiene pessoal e perfumaria
+                para seu bem-estar.
+              </p>
+            </div>
+
+            <div
+              class="bg-white p-8 rounded-lg shadow-lg text-center transform transition-transform hover:-translate-y-2"
+            >
+              <svg
+                class="w-16 h-16 text-red-600 mx-auto mb-4"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
+                />
+              </svg>
+              <h3 class="text-2xl font-bold text-gray-800 mb-2">
+                Atendimento Humanizado
+              </h3>
+              <p class="text-gray-600">
+                Nossa equipe está pronta para te atender com carinho, respeito e
+                atenção total.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="galeria" class="py-20 bg-white">
+        <div class="container mx-auto px-6">
+          <h2 class="text-4xl font-bold text-center text-gray-800 mb-12">
+            Nossa Loja
+          </h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <img
+              src="img/loja-externa.jpeg"
+              alt="Fachada da New Pharma"
+              class="rounded-lg shadow-lg object-cover w-full h-80"
+            />
+            <img
+              src="img/loja-interior-2.jpeg"
+              alt="Interior da New Pharma - Brinquedos"
+              class="rounded-lg shadow-lg object-cover w-full h-80"
+            />
+            <img
+              src="img/loja-interior-1.jpeg"
+              alt="Interior da New Pharma - Mural"
+              class="rounded-lg shadow-lg object-cover w-full h-80"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="py-20 bg-gray-50">
+        <div
+          class="container mx-auto px-6 max-w-6xl grid md:grid-cols-2 gap-12"
+        >
+          <div class="space-y-8">
+            <div>
+              <h2 class="text-3xl font-bold text-gray-800 mb-6">
+                Venha nos Visitar
+              </h2>
+
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">Endereço</h3>
+              <ul class="text-gray-600 space-y-1">
+                <li><strong>Logradouro:</strong> AV TERCEIRO MUNDO, 4</li>
+                <li><strong>Complemento:</strong> QUADRA13 SETOR ASIA</li>
+                <li><strong>Bairro:</strong> CIDADE CONTINENTAL</li>
+                <li><strong>Município:</strong> SERRA - ES</li>
+                <li><strong>CEP:</strong> 29.163-603</li>
+              </ul>
+            </div>
+
+            <div>
+            <h4 class="text-xl font-bold text-white mb-4">Entre em Contato</h4>
+            <p class="leading-relaxed">
+              <strong>Telefones:</strong><br />
+              (27) 2141-2632 <small>(Fixo)</small><br />
+              (27) 9764-6669 <br />
+              (27) 99943-4649 <small>(WhatsApp)</small>
+            </p>
+            <p class="leading-relaxed mt-4">
+              <strong>Email:</strong><br />
+              <a
+                href="mailto:REMEDIO10FARMACIA@GMAIL.COM"
+                class="hover:text-red-400 break-all"
+                >REMEDIO10FARMACIA@GMAIL.COM</a
+              >
+            </p>
+          </div>
+
+            <div>
+              <h3 class="text-xl font-semibold text-gray-900 mb-2">
+                Informações
+              </h3>
+              <ul class="text-gray-600 space-y-1">
+                <li>
+                  <strong>Razão Social:</strong> NEW PHARMA MEDICAMENTOS LTDA
+                </li>
+                <li><strong>CNPJ:</strong> 46.995.223/0001-37</li>
+              </ul>
+            </div>
+
+            <a
+              href="https://wa.me/5527999434649"
+              target="_blank"
+              class="mt-8 inline-block px-8 py-3 bg-green-500 text-white text-lg font-bold rounded-lg shadow-lg hover:bg-green-600 transform hover:scale-105 transition-all"
+            >
+              Peça pelo WhatsApp
+            </a>
+          </div>
+
+          <div>
+            <div
+              class="rounded-lg shadow-xl overflow-hidden w-full h-[500px] md:h-full"
+            >
+              <iframe
+                src="https://www.google.com/maps?q=AV+TERCEIRO+MUNDO+4,+QUADRA13+SETOR+ASIA,+CIDADE+CONTINENTAL,+SERRA+-+ES,+29.163-603&output=embed"
+                width="100%"
+                height="100%"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+                class="rounded-lg"
+              >
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gray-900 text-gray-300">
+      <div class="container mx-auto px-6 py-8">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0 text-center md:text-left">
+            <a
+              href="#inicio"
+              class="text-2xl font-bold text-red-500 hover:text-red-400"
+            >
+              New Pharma
+            </a>
+            <p class="text-sm text-gray-400 mt-1">
+              © 2025 New Pharma Medicamentos Ltda.
+            </p>
+          </div>
+
+          <div class="flex space-x-6">
+            <a href="#sobre" class="text-sm hover:text-white transition-colors"
+              >Sobre</a
+            >
+            <a
+              href="#servicos"
+              class="text-sm hover:text-white transition-colors"
+              >Serviços</a
+            >
+            <a
+              href="#contato"
+              class="text-sm hover:text-white transition-colors"
+              >Contato</a
+            >
+            <a
+              href="#"
+              id="open-privacy-modal"
+              class="text-sm hover:text-white transition-colors"
+              >Privacidade</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div
+      id="privacy-modal"
+      class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4 hidden"
+    >
+      <div
+        class="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto"
+      >
+        <div class="flex justify-between items-center border-b p-5">
+          <h3 class="text-2xl font-bold text-gray-800">
+            Política de Privacidade
+          </h3>
+          <button
+            id="close-privacy-modal"
+            class="text-gray-500 hover:text-gray-800 text-3xl"
+          >
+            ×
+          </button>
+        </div>
+        <div class="p-6 text-gray-600 leading-relaxed">
+          <p class="mb-4">
+            <strong>Última atualização:</strong> 30 de outubro de 2025
+          </p>
+
+          <p class="mb-4">
+            A New Pharma Medicamentos ("nós", "nosso") opera o site (o
+            "Serviço"). Esta página informa sobre nossas políticas relativas à
+            coleta, uso e divulgação de informações pessoais quando você usa
+            nosso Serviço.
+          </p>
+          <p class="mb-4">
+            Não coletamos informações de identificação pessoal de visitantes,
+            pois este é um site institucional estático (landing page). Nenhum
+            dado é solicitado ou armazenado através de formulários ou cookies de
+            rastreamento.
+          </p>
+
+          <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">
+            1. Coleta e Uso de Informações
+          </h4>
+          <p class="mb-4">
+            Para uma landing page simples, não coletamos dados pessoais. Se você
+            nos contatar via WhatsApp ou e-mail, seus dados de contato (como
+            número de telefone ou endereço de e-mail) serão usados unicamente
+            para responder à sua solicitação.
+          </p>
+
+          <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">
+            2. Links para Outros Sites
+          </h4>
+          <p class="mb-4">
+            Nosso Serviço pode conter links para outros sites que não são
+            operados por nós (como o WhatsApp). Se você clicar em um link de
+            terceiros, será direcionado para o site desse terceiro. Aconselhamos
+            vivamente que reveja a Política de Privacidade de todos os sites que
+            visita.
+          </p>
+
+          <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">
+            3. Alterações a esta Política de Privacidade
+          </h4>
+          <p class="mb-4">
+            Podemos atualizar nossa Política de Privacidade periodicamente.
+            Notificaremos sobre quaisquer alterações publicando a nova Política
+            de Privacidade nesta página.
+          </p>
+
+          <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">
+            4. Contate-Nos
+          </h4>
+          <p>
+            Se tiver alguma dúvida sobre esta Política de Privacidade, entre em
+            contato conosco através do e-mail: REMEDIO10FARMACIA@GMAIL.COM
+          </p>
+        </div>
+        <div class="border-t p-4 bg-gray-50 text-right">
+          <button
+            id="close-privacy-modal-footer"
+            class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700"
+          >
+            Fechar
+          </button>
         </div>
       </div>
     </div>
-  </footer>
 
-
-  <div id="privacy-modal" class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4 hidden">
-    <div class="bg-white rounded-lg shadow-xl max-w-2xl w-full max-h-[90vh] overflow-y-auto">
-      <div class="flex justify-between items-center border-b p-5">
-        <h3 class="text-2xl font-bold text-gray-800">Política de Privacidade</h3>
-        <button id="close-privacy-modal" class="text-gray-500 hover:text-gray-800 text-3xl">×</button>
-      </div>
-      <div class="p-6 text-gray-600 leading-relaxed">
-        <p class="mb-4"><strong>Última atualização:</strong> 30 de outubro de 2025</p>
-
-        <p class="mb-4">A New Pharma Medicamentos ("nós", "nosso") opera o site (o "Serviço"). Esta página informa sobre
-          nossas políticas relativas à coleta, uso e divulgação de informações pessoais quando você usa nosso Serviço.
-        </p>
-        <p class="mb-4">Não coletamos informações de identificação pessoal de visitantes, pois este é um site
-          institucional estático (landing page). Nenhum dado é solicitado ou armazenado através de formulários ou
-          cookies de rastreamento.</p>
-
-        <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">1. Coleta e Uso de Informações</h4>
-        <p class="mb-4">Para uma landing page simples, não coletamos dados pessoais. Se você nos contatar via WhatsApp
-          ou e-mail, seus dados de contato (como número de telefone ou endereço de e-mail) serão usados unicamente para
-          responder à sua solicitação.</p>
-
-        <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">2. Links para Outros Sites</h4>
-        <p class="mb-4">Nosso Serviço pode conter links para outros sites que não são operados por nós (como o
-          WhatsApp). Se você clicar em um link de terceiros, será direcionado para o site desse terceiro. Aconselhamos
-          vivamente que reveja a Política de Privacidade de todos os sites que visita.</p>
-
-        <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">3. Alterações a esta Política de Privacidade</h4>
-        <p class="mb-4">Podemos atualizar nossa Política de Privacidade periodicamente. Notificaremos sobre quaisquer
-          alterações publicando a nova Política de Privacidade nesta página.</p>
-
-        <h4 class="font-bold text-lg text-gray-700 mt-6 mb-2">4. Contate-Nos</h4>
-        <p>Se tiver alguma dúvida sobre esta Política de Privacidade, entre em contato conosco através do e-mail:
-          REMEDIO10FARMACIA@GMAIL.COM</p>
-      </div>
-      <div class="border-t p-4 bg-gray-50 text-right">
-        <button id="close-privacy-modal-footer"
-          class="bg-red-600 text-white px-6 py-2 rounded-lg hover:bg-red-700">Fechar</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="script.js"></script>
-
-</body>
-
+    <script src="script.js"></script>
+  </body>
 </html>
